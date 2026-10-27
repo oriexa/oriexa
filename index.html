@@ -22,7 +22,7 @@
     .identity { align-self: center; justify-self: center; width: min(100%, 660px); text-align: center; transform: translateY(-1.2vh); }
     .logo { display: block; width: min(100%, 650px); height: auto; margin: auto; }
     .claim { margin: 15px 0 0; padding-left: .43em; color: #0a1c3a; font-size: clamp(9px, 1.05vw, 12px); font-weight: 650; letter-spacing: .43em; line-height: 1.8; }
-    .footer { text-align: center; padding: 0 0 clamp(38px, 6.4vh, 78px); }
+    .footer { text-align: center; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: clamp(16px, 3vw, 30px); padding: 0 0 clamp(38px, 6.4vh, 78px); }
     .contact { display: inline-block; padding: 0 0 10px; color: #0a1c3a; border-bottom: 1px solid #148e9a; text-decoration: none; font-size: 13px; font-weight: 600; letter-spacing: .105em; transition: border-color .2s ease, color .2s ease; }
     .contact:hover, .contact:focus-visible { color: #087f90; border-color: #087f90; }
     .contact:focus-visible { outline: 2px solid #087f90; outline-offset: 6px; }
@@ -49,6 +49,7 @@
     </div>
     <footer class="footer">
       <a class="contact" href="mailto:owner@oriexa.com" aria-label="Contactar por correo a owner@oriexa.com">owner@oriexa.com</a>
+      <a class="contact" href="https://www.instagram.com/oriexastudio/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de ORIEXA: @oriexastudio">@oriexastudio</a>
     </footer>
   </main>
 </body>
